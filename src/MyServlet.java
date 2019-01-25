@@ -41,7 +41,7 @@ public class MyServlet extends HttpServlet {
 		String pas = request.getParameter("pass");
 //		System.out.println(log + " " + pas);
 		response.setContentType("text/html;charset=UTF-8");
-		if (log.equals("123") && pas.equals("123") )  response.getWriter().print("COOL"); else response.getWriter().print(" <form id=\"auth\" ></form>\r\n" + 
+		if (log.equals("123") && pas.equals("123") )  response.getWriter().print("Hello <3"); else response.getWriter().print(" <form id=\"auth\" ></form>\r\n" + 
 				"  <p>Input  data</p>\r\n" + 
 				"  <p> Login <input name=\"login\" form=\"auth\">\r\n</p>" + 
 				"  <p> Password <input type=\"password\" name=\"pass\" form=\"auth\"></p>\r\n" + 
